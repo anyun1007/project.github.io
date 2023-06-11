@@ -383,7 +383,7 @@ footer {
   background-color: pink;
 }
 
-/*
+
 input[type=text],
 input[type=submit] {
   width: 30%;
@@ -393,7 +393,7 @@ input[type=submit] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
+/*
 input[type=checkbox] {
   margin-top: 10px;
 }
