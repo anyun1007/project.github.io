@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>後台管理</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/list.css">
+    
+</head>
+<body>
+    <header>
+    
+        <div class="navbar">
+          <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+          <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-fw fa-search"></i>商品列表
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="clothesmenu.html">服飾</a> 
+                <a href="accessorymenu.html">配飾</a> 
+                <a href="3cmenu.html">3C</a> 
+                <!--p
+                <a href="clothes1.html">碎花上衣</a>
+                <a href="clothes2.html">手做拼接洋裝</a>
+                <a href="clothes3.html">燈心絨外套</a>
+                <a href="accessory1.html">字母項鍊</a>
+                <a href="accessory2.html">鴨舌帽</a>
+                <a href="accessory3.html">衝浪手環</a>
+                <a href="camera.html">vintage 相機</a>
+                <a href="bag.html">經典背包粉紅色</a>
+                <a href="sunglass.html">時尚太陽鏡</a>
+                -->
+              </div>
+          </div>
+    
+          <a href="aboutus.html">關於我們</a>
+    
+          <div class="nav-right"><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> 聯絡我們</a>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-fw fa-search"></i>會員中心
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="member.html">會員資料查詢</a> 
+                <a href="record.html">會員訂單紀錄</a> 
+            </div>
+        </div>
+          <a href="login.html"><i class="fa fa-fw fa-user"></i> 登入</a>
+          </div>
+    
+          <div class="cart">
+            <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="side1"></div>
+
+        <main>
+            <section>
+                <div class="list">
+                    <h1>檢視訂單</h1>
+                    <hr style="border-width: 1px;border-color: #E0E0E0;">
+                    <div>
+                        <input style="width:50%;border-color: black;" type="text" placeholder="請輸入會員名稱">
+                        <input type="button" value="搜尋">
+                    </div>
+                    <table border="1">
+                        <tr>
+                          <td><h3>購買者</h3></td>
+                          <td><h3>商品名稱</h3></td>
+                          <td><h3>價格</h3></td>
+                          <td><h3>數量</h3></td>
+                          <td><h3>時間</h3></td>
+                        </tr>
+                        <tr>
+                          <td>aaa@gmail.com</td>
+                          <td>vintage 相機</td>
+                          <td>$499</td>
+                          <td>1</td>
+                          <td>2023-05-21-14:53</td>
+                        </tr>
+                        <tr>
+                            <td>aaa@gmail.com</td>
+                            <td>鴨舌帽</td>
+                            <td>$700</td>
+                            <td>1</td>
+                            <td>2023-05-21-14:53</td>
+                        </tr>	
+                        <tr>
+                            <td>aaa@gmail.com</td>
+                            <td>手做拼接洋裝</td>
+                            <td>$350</td>
+                            <td>1</td>
+                            <td>2023-05-21-14:53</td>
+                        </tr>
+                    </table>
+
+                    <div style="margin-top: 50px;">
+                        <h1>會員管理</h1>
+                        <hr style="border-width: 1px;border-color: #E0E0E0;">
+                        <div style="margin: 15px 0px;">
+                        <input style="width:50%;border-color: black;" type="text" placeholder="請輸入會員名稱">
+                        <input type="button" value="搜尋">
+                        </div>
+                        <table border="1">
+                        <tr>
+                            <td><h3>會員名稱</h3></td>
+                            <td><h3>密碼</h3></td>
+                            <td><h3>電話</h3></td>
+                            <td><h3>Email</h3></td>
+                            <td><h3>地址</h3></td>
+                        </tr>
+                        <tr>
+                            <td>官方帳號</td>
+                            <td>12345678</td>
+                            <td>0900000000</td>
+                            <td>twicebutnice@gmail.com</td>
+                            <td>桃園市</td>
+                        </tr>
+                        </table>
+                    </div>
+                  
+                    <div style="margin-top: 50px;">
+                        <h1>庫存管理 <a href="#addproduct"></a><font style="font-size: 15px; color:gray;">新增商品</font></a></h1>
+                        <hr style="border-width: 1px;border-color: #E0E0E0;">
+                        <div style="margin: 15px 0px;">
+                            <input style="width:50%;border-color: black;" type="text" placeholder="請輸入商品名稱">
+                            <input type="button" value="搜尋">
+                        </div>
+                        <table class="text-center"  border="1" style="margin-top: 50px;">
+                        <tr>
+                            <td><h3>商品名稱</h3></td>
+                            <td><h3>價格</h3></td>
+                            <td><h3>庫存</h3></td>
+                            <td><h3>保存完好度</h3></td>
+                            <td><h3>確認修改</h3></td>
+                        </tr>
+                        <tr>
+                            <td >碎花上衣</td>
+                            <td><input type="text" value="$150"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>A</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>手做拼接洋裝</td>
+                            <td><input type="text" value="$350"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>B</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>燈心絨外套</td>
+                            <td><input type="text" value="$500"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>S</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td 字母項鍊</td>
+                            <td><input type="text" value="$500"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>S</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>鴨舌帽</td>
+                            <td><input type="text" value="$700"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>A</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>衝浪手環</td>
+                            <td><input type="text" value="$100"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>B</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>vintage 相機</td>
+                            <td><input type="text" value="$499"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>A</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >經典背包粉紅色</td>
+                            <td><input type="text" value="$289"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>A</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >時尚太陽眼鏡</td>
+                            <td><input type="text" value="$198"></td>
+                            <td><input type="text" value="10"></td>
+                            <td>S</td>
+                            <td>
+                            <button>確認修改</button> <br>
+                            <button>確認刪除</button>
+                            </td>
+                        </tr>
+                        </table>
+                    </div>
+                    
+                    <a name="addproduct"><div style="margin-top: 50px;" >
+                        <h1>增加商品</h1>
+                        <hr style="border-width: 1px;">
+                        <form>
+                            <div>
+                                商品名稱&nbsp;<input type="text">
+                            </div>
+                            <div>
+                                價格 &nbsp;<input type="text">
+                            </div>
+                            <div>
+                                庫存管理&nbsp;<input type="text">
+                            </div>
+                            <div>
+                                保存完好度&nbsp;<input type="text">
+                            </div>
+                            <div>
+                                商品圖片 &nbsp;<input type="file">
+                            </div>
+                            <button style="margin-right: auto;margin-left: auto;display: block;">確認增加</button>
+                        </form>
+                    </a>
+                
+                </div>
+            </section>
+          
+        </main>
+      
+      <div class="side2"></div> 
+</body>
+</html>
